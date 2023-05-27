@@ -1,8 +1,10 @@
-import { useState } from 'react'
-import './App.css'
+import React from 'react';
+import './App.css';
+
+import Background from './components/Background';
 
 function App() {
-  const [count, setCount] = useState(0)
+
 
   return (
     <>
@@ -12,6 +14,7 @@ function App() {
           My name is Melodi and I am a student in Edinburgh.
         </p>
       </div>
+      <Background />
     </>
   )
 }
